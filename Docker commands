@@ -50,7 +50,8 @@ cat /etc/*release* : to list OS details of the container
 
 docker commit <container ID> <name> 
 
-docker exec -it <containerID> bash :to ssh into a contenaire
+docker exec -it <containerID> bash or sh :to ssh into a contenaire
+if bash doesn't work you can use shell (sh)
 
 ##############################################################################
 
