@@ -34,23 +34,23 @@ docker ps -a : To list all containers .. irrespective of whether they are exited
 
 docker ps -a -q or docker ps -aq : To list containers by theier ID's
 
-docker logs <docker containe-ID> : Display logs for running container
+docker logs <docker containe-ID or name> : Display logs for running container
 
-docker stop <container ID> : To stop a specific container 
+docker stop <container ID or name> : To stop a specific container 
 
-docker start <container ID> : To start a stopped container
+docker start <container ID or name> : To start a stopped container
 
-docker rm <container ID> to delete a specific container ..Note: must confirm container is deleted by rinting out the container ID
+docker rm <container ID or name> to delete a specific container ..Note: must confirm container is deleted by rinting out the container ID
 
 docker rm -f $(docker ps -aq) : Forcefully remove all containers without stopping them
 
-docker run -it ubuntu bash : to start the ubuntu container and log into it
+docker run -it ubuntu bash : to start the ubuntu container and log into it(interactive mode)
 
 cat /etc/*release* : to list OS details of the container
 
-docker commit <container ID> <name>
+docker commit <container ID> <name> 
 
-docker exec -it <containerID> bash
+docker exec -it <containerID> bash :to ssh into a contenaire
 
 ##############################################################################
 
