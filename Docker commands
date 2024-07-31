@@ -79,7 +79,7 @@ docker run --name <container name> -d -p 8000:8080 <image-name:tag>
 
 Docker Registry
 
-docker tag <existing-image-name:tag> <image-name:tag>
+docker tag <existing-image-name:tag> <image-name:tag> (image-name: is the name of the repository you create in docker registry=dockerhub)
 
 docker login -u <username> -p <password> ### TO login to docker registry
 
