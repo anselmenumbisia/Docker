@@ -129,3 +129,20 @@ docker exec -it <name of container> bash
 
 # ping <ip of other container>
 
+###########################################
+
+Docker compose
+
+###########################################
+
+docker-compose up -d      # To start containers in detached mode
+
+docker-compose down       # To stop containers
+
+docker-compose ps        # To list running containers
+
+docker-compose logs       # To view logs of running containers
+
+docker-compose rm -f      # To remove containers without stopping them
+
+
